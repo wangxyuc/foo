@@ -5,7 +5,7 @@ var todos = [
     "study JS"
 ];
 
-// for loop
+// for loop:
 
 for (var i = 0; i < todos.length; i++) {
     todos[i] = todos[i] + "!";
