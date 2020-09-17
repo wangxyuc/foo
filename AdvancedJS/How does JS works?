@@ -1,0 +1,30 @@
+How does JS works?
+
+
+
+>> What is a program?
+- allocate memory
+- parse and execute
+
+
+>> JS engine consists of two parts:
+    - memory heap: memory allocation
+    - call stack: read and execute code
+        JS is single-threaded, so only 1 call stack
+
+memory leak: when you have un-used memory laying around and eat up memory
+deadlock:
+
+
+
+>> JS Run-Time Engine
+
+    - In the browser:
+        - Web APIs:
+            - DOM
+            - AJAX (XML httpRequest)
+            - Timeout setTimeout()
+        - Event loop
+        - Callback queue
+
+

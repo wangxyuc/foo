@@ -1,0 +1,30 @@
+
+Inline scripts: 
+    bad code reusability
+    pollution of global namespace
+
+ |  |
+ V  V
+
+Script tags:
+    Have to copy all scripts when building new web page
+    lacking dependency resolution (order of script file loading)
+    also, pollution of global namespace
+
+ |  |
+ V  V
+
+IIFE (immediately invoked function expression):
+    also, lacking dependency resolution
+
+ |  |
+ V  V
+
+Common JS + Browserify: all script on one massive file. use only one script tag in html
+Browserify is a script bundle tool
+
+ |  |
+ V  V
+
+ES6 + Webpack2: export and import js files
+Webpack2 is also a script bundle tool
